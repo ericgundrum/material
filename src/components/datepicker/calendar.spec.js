@@ -352,6 +352,7 @@ describe('md-calendar', function() {
       var otherMonthElement = otherNgElement[0].querySelector('.md-calendar-month');
       var otherDateElement = findDateElement(otherMonthElement, day);
 
+//      pending();
       expect(dateElement.id).not.toEqual(otherDateElement.id);
     });
   });

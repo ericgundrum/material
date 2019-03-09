@@ -51,7 +51,7 @@ module.exports = function(config) {
 
     logLevel: config.LOG_DEBUG,
     port: 9876,
-    reporters: ['progress'],
+    reporters: ['dots'],
     colors: true,
 
     // Continuous Integration mode
@@ -67,7 +67,7 @@ module.exports = function(config) {
     // - Safari (only Mac; has to be installed with `npm install karma-safari-launcher`)
     // - PhantomJS
     // - IE (only Windows; has to be installed with `npm install karma-ie-launcher`)
-    browsers: ['Firefox', 'PhantomJS'],
+    browsers: ['PhantomJS'],
 
     // you can define custom flags
     customLaunchers: {
